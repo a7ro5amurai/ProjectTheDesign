@@ -1,0 +1,221 @@
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: "Roboto-Light";
+    src: url("../fonts/Roboto-Light.ttf");
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 10px;
+}
+body{
+    width: 1440px;
+    margin: 0 auto;
+    font-family: "Roboto-Regular";
+}
+header{
+    display: flex;
+    height: 765px;
+    margin-bottom: 90px;
+}
+header article:first-of-type{
+    width: 45%;
+}
+.TheDesign{
+    margin: 38px 0px 350px 91px;
+}
+.TheDesign h3{
+    font-size: 2.4rem;
+}
+.howto{
+    margin-left: 144px;
+}
+.howto h1{
+    font-size: 4.5rem;
+    margin-bottom: 18px;
+}
+.howto p{
+    font-size: 1.8rem;
+}
+.howto div{
+    width: 32px;
+    height: 28px;
+    background-image: url(../img/rocket.png);
+    background-size: contain;
+}
+.howto section{
+    display: flex;
+    margin: 11px 0 56px 0;
+}
+.howto p:last-child{
+    color: #FF3571;
+}
+.animation{
+    width: 55%;
+    background-image: url(../img/background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+header article img{
+    width: 100%;
+    animation: flying 0.75s linear infinite alternate;
+}
+@keyframes flying {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(75px);
+    }
+}
+.images{
+    width: 100%;
+    margin-bottom: 254px;
+    box-shadow: 0 4px 10px -3px gray;
+}
+
+/* !main */
+
+main{
+    padding: 0 144px;
+}
+.idea{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+.flexidea{
+    display: flex;
+    align-items: baseline;
+}
+.idea h2{
+    font-size: 3.8rem;
+}
+.flexidea h2{
+    width: 175px;
+}
+.flexidea img{
+    width: 60px;
+    object-fit: contain;
+}
+.textidea{
+    width: 600px;
+}
+.textidea p{
+    font-size: 1.8rem;
+    padding-top: 20px;
+}
+.after h1{
+    font-size: 3.8rem;
+    margin-left: 50px;
+}
+.smallfour{
+    margin: 150px 0;
+    display: grid;
+    grid-template: repeat(2, 1fr)/ repeat(2, 1fr);   
+    column-gap: 80px;
+    row-gap: 80px;
+}
+.smallfour div{
+    display: flex;
+    width: 400px;
+    align-items: flex-start;
+}
+.smallfour img{
+    width: 32px;
+    margin-right: 25px;
+}
+.smallfour h4{
+    font-size: 1.9rem;
+}
+.smallfour p{
+    font-size: 1.4rem;
+}
+.ready{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.ready h1{
+    font-size: 2.8rem;
+    margin-bottom: 25px;
+}
+.ready p{
+    font-size: 1.4rem;
+    width: 400px;
+
+}
+.letsgo{
+    display: grid;
+    grid-template: repeat(4, 1fr)/ 1fr 1fr;
+    row-gap: 100px;
+    column-gap: 100px;
+}
+.letsgo img{
+    max-width: 80%;
+}
+.letsgo h1{
+    font-size: 5.2rem;
+    color: #DDDDDD;
+    margin-bottom: 40px;
+}
+.mini img{
+    width: 45px;
+    margin-bottom: 25px;
+}
+.letsgo h3{
+    font-size: 1.9rem;
+    margin-bottom: 15px;
+}
+.letsgo p{
+    font-size: 1.4rem;
+}
+.doyoulike{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 150px;
+}
+.doyoulike h2{
+    font-size: 2.8rem;
+}
+.doyoulike p{
+    font-size: 1.4rem;
+}
+.doyoulike input{
+    font-size: 2.4rem;
+    text-align: center;
+    padding: 10px 100px;
+}
+.doyoulike button{
+    font-size: 2rem;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #FF3571;
+    border: none;
+    color: white;
+}
+
+/* !footer */
+footer p{
+    font-size: 1.8rem;
+}
+footer img{
+    width: 28px;
+}
+
+
+
